@@ -18,7 +18,7 @@ export default function App() {
         <Tab.Navigator 
           screenOptions={{ 
             headerShown: false, 
-            tabBarStyle: { height: 70 },
+            tabBarStyle: { height: 80 },
             tabBarLabelStyle: { fontSize: 12, color: 'black' },
             }}>
           <Tab.Screen options={{tabBarIcon: () => {

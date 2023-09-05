@@ -2,8 +2,8 @@ import { View, Text } from 'react-native';
 
 export default function TopBar(Props) {
 	return (
-		<View className=" h-20 bg-slate-400 justify-center p-4 shadow-lg">
-			<Text className=" text-2xl text-black">{Props.name}</Text>
+		<View className=" h-[60] justify-center p-[16] border-b-[2px] border-gray-300">
+			<Text className=" text-xl text-black font-semibold">{Props.name}</Text>
 		</View>
 	)
 }
