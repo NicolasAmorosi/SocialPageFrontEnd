@@ -10,7 +10,7 @@ export default function PersonalPage() {
 			<Text className=" text-xl font-semibold">Nicolas Amorosi</Text>
 		</View>
 		<View className=" p-[16]">
-			<Text className=" text-xl font-medium">Description</Text>
+			<Text className=" text-xl">Description</Text>
 		</View>
 		<ScrollView>
 			<View className="flex-wrap flex-1 flex-row p-[8] gap-[8] justify-center">
