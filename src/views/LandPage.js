@@ -8,7 +8,7 @@ export default function LandPage() {
 
   return (
     <SafeAreaView>
-		<TopBar name="LandPage" />
+		<TopBar name="LandPage"/>
 		<ScrollView className=" w-[100%] flex flex-col">
 			{posts.map((post) => (
 			<Post key={post.id} />
