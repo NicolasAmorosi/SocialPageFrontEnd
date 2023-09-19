@@ -1,16 +1,16 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import LandPage from '../views/LandPage';
-import PersonalPage from '../views/PersonalPage';
-import SearchPage from '../views/SearchPage';
+import StackLandPage from '../stacks/StackLandPage';
+import PersonalPage from '../stacks/PersonalPage';
+import SearchPage from '../stacks/SearchPage';
 
 const Tab = createBottomTabNavigator();
 
 export default function NavBar() {
 	return (
 		<Tab.Navigator
-		initialRouteName="LandPage"
+		initialRouteName="StackLandPage"
 		screenOptions={{
 			tabBarActiveTintColor: '#00B9FF',
 			headerShown: false,
@@ -19,8 +19,8 @@ export default function NavBar() {
 		}}
 		>
 		<Tab.Screen
-			name="LandPage"
-			component={LandPage}
+			name="StackLandPage"
+			component={StackLandPage}
 			options={{
 			tabBarLabel: 'Home',
 			tabBarIcon: ({ color, size }) => (
